@@ -1,0 +1,130 @@
+0000.130 () Opened log file at time: Fri, 22 Dec 2023 02:54:22 +0000 on http://localhost:8080/wordpress
+0000.132 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.23.13 WP: 6.4.2 PHP: 8.2.12 (apache2handler, Windows NT LAPTOP-81OPGQDH 10.0 build 19045 (Windows 10) AMD64) MySQL: 10.4.32-MariaDB (max packet size=33554432) WPLANG: vi Server: Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.2.12 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 42.7M | 44M) multisite: N openssl: OpenSSL 3.0.11 19 Sep 2023 mcrypt: N LANG:  ZipArchive::addFile: N
+0000.133 () Free space on disk containing Updraft's temporary directory: 26332.9 MB
+0000.198 () Restore setup, now closing connection and starting restore over AJAX.
+0000.034 () Opened log file at time: Fri, 22 Dec 2023 02:54:24 +0000 on http://localhost:8080/wordpress
+0000.035 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.23.13 WP: 6.4.2 PHP: 8.2.12 (apache2handler, Windows NT LAPTOP-81OPGQDH 10.0 build 19045 (Windows 10) AMD64) MySQL: 10.4.32-MariaDB (max packet size=33554432) WPLANG: vi Server: Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.2.12 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 40.5M | 44M) multisite: N openssl: OpenSSL 3.0.11 19 Sep 2023 mcrypt: N LANG:  ZipArchive::addFile: N
+0000.035 () Free space on disk containing Updraft's temporary directory: 26332.4 MB
+0000.060 () Ensuring WP_Filesystem is setup for a restore
+0000.062 () WP_Filesystem is setup and ready for a restore
+0000.067 () Restore job started. Entities to restore: plugins, themes, uploads, others, db. Restore options: {"include_unspecified_tables":false,"tables_to_restore":["wp_options","wp_users","wp_usermeta","wp_commentmeta","wp_comments","wp_links","wp_postmeta","wp_posts","wp_term_relationships","wp_term_taxonomy","wp_termmeta","wp_terms"],"tables_to_skip":[],"updraft_encryptionphrase":"","updraft_restorer_wpcore_includewpconfig":false,"updraft_incremental_restore_point":-1}
+0000.070 () PHP event: code E_WARNING: mkdir(): File exists (line 558, C:\xampp\htdocs\wordpress\wp-admin\includes\class-wp-filesystem-direct.php)
+0000.085 () Will not delete any archives after unpacking them, because there was no cloud storage for this backup
+0000.087 () Entity: db
+0000.087 () restore_backup(backup_file=backup_2023-12-22-0237_VuongHongBao_6805ed469bda-db.gz, type=db, info=a:0:{}, last_one=)
+0000.088 () Unpacking backup... (backup_2023-12-22-0237_VuongHongBao_6805ed469bda-db.gz, 0.1 Mb)
+0000.089 () PHP event: code E_WARNING: mkdir(): File exists (line 558, C:\xampp\htdocs\wordpress\wp-admin\includes\class-wp-filesystem-direct.php)
+0000.091 () Database successfully unpacked
+0000.092 () PHP event: code E_DEPRECATED: Creation of dynamic property UpdraftPlus_Migrator_Lite::$siteurl is deprecated (line 305, C:\xampp\htdocs\wordpress\wp-content\plugins\updraftplus\includes\migrator-lite.php)
+0000.092 () PHP event: code E_DEPRECATED: Creation of dynamic property UpdraftPlus_Migrator_Lite::$home is deprecated (line 306, C:\xampp\htdocs\wordpress\wp-content\plugins\updraftplus\includes\migrator-lite.php)
+0000.092 () PHP event: code E_DEPRECATED: Creation of dynamic property UpdraftPlus_Migrator_Lite::$content is deprecated (line 307, C:\xampp\htdocs\wordpress\wp-content\plugins\updraftplus\includes\migrator-lite.php)
+0000.092 () PHP event: code E_DEPRECATED: Creation of dynamic property UpdraftPlus_Migrator_Lite::$use_wpdb is deprecated (line 308, C:\xampp\htdocs\wordpress\wp-content\plugins\updraftplus\includes\migrator-lite.php)
+0000.092 () PHP event: code E_DEPRECATED: Creation of dynamic property UpdraftPlus_Migrator_Lite::$base_prefix is deprecated (line 310, C:\xampp\htdocs\wordpress\wp-content\plugins\updraftplus\includes\migrator-lite.php)
+0000.092 () PHP event: code E_DEPRECATED: Creation of dynamic property UpdraftPlus_Migrator_Lite::$mysql_dbh is deprecated (line 328, C:\xampp\htdocs\wordpress\wp-content\plugins\updraftplus\includes\migrator-lite.php)
+0000.092 () PHP event: code E_DEPRECATED: Creation of dynamic property UpdraftPlus_Migrator_Lite::$use_mysqli is deprecated (line 329, C:\xampp\htdocs\wordpress\wp-content\plugins\updraftplus\includes\migrator-lite.php)
+0000.092 () PHP event: code E_DEPRECATED: Creation of dynamic property UpdraftPlus_Migrator_Lite::$report is deprecated (line 342, C:\xampp\htdocs\wordpress\wp-content\plugins\updraftplus\includes\migrator-lite.php)
+0000.093 () Restoring the database (on a large site this can take a long time - if it times out (which can happen if your web hosting company has configured your hosting to limit resources) then you should use a different method, such as phpMyAdmin)...
+0000.099 () Using direct MySQL access; value of use_mysqli is: 1
+0000.100 () SQL compatibility mode is: NO_AUTO_VALUE_ON_ZERO,NO_ZERO_IN_DATE,NO_ENGINE_SUBSTITUTION
+0000.161 () Max packet size: 32 MB
+0000.161 () Entering maintenance mode
+0000.161 () Bật chế độ Bảo trì&#8230;
+0000.191 () Backup of: http://localhost:8080/wordpress
+0000.192 () PHP event: code E_DEPRECATED: Creation of dynamic property UpdraftPlus_Migrator_Lite::$old_siteurl is deprecated (line 268, C:\xampp\htdocs\wordpress\wp-content\plugins\updraftplus\includes\migrator-lite.php)
+0000.192 () PHP event: code E_DEPRECATED: Creation of dynamic property UpdraftPlus_Migrator_Lite::$old_home is deprecated (line 274, C:\xampp\htdocs\wordpress\wp-content\plugins\updraftplus\includes\migrator-lite.php)
+0000.193 () Content URL: http://localhost:8080/wordpress/wp-content
+0000.193 () PHP event: code E_DEPRECATED: Creation of dynamic property UpdraftPlus_Migrator_Lite::$old_content is deprecated (line 280, C:\xampp\htdocs\wordpress\wp-content\plugins\updraftplus\includes\migrator-lite.php)
+0000.193 () Uploads URL: http://localhost:8080/wordpress/wp-content/uploads
+0000.193 () PHP event: code E_DEPRECATED: Creation of dynamic property UpdraftPlus_Migrator_Lite::$old_uploads is deprecated (line 286, C:\xampp\htdocs\wordpress\wp-content\plugins\updraftplus\includes\migrator-lite.php)
+0000.193 () Old table prefix: wp_
+0000.193 () UpdraftPlus plugin slug: updraftplus/updraftplus.php
+0000.193 () Site information: multisite=0
+0000.194 () Site information: sql_mode=NO_ZERO_IN_DATE,NO_ENGINE_SUBSTITUTION
+0000.195 () New table prefix: 9g_
+0000.200 () Processing table (InnoDB): wp_options - will restore as: 9g_options
+0000.293 () Atomic restore: dropping original table (wp_options)
+0000.301 () Atomic restore: renaming new table (9g_options) to final table name (wp_options)
+0000.309 () Restoring prior UD configuration (table: wp_options; keys: 4)
+0000.321 () Processing table (InnoDB): wp_users - will restore as: 9g_users
+0000.353 () Atomic restore: dropping original table (wp_users)
+0000.359 () Atomic restore: renaming new table (9g_users) to final table name (wp_users)
+0000.365 () Processing table (InnoDB): wp_usermeta - will restore as: 9g_usermeta
+0000.391 () Atomic restore: dropping original table (wp_usermeta)
+0000.396 () Atomic restore: renaming new table (9g_usermeta) to final table name (wp_usermeta)
+0000.402 () Processing table (InnoDB): wp_commentmeta - will restore as: 9g_commentmeta
+0000.436 () Atomic restore: dropping original table (wp_commentmeta)
+0000.442 () Atomic restore: renaming new table (9g_commentmeta) to final table name (wp_commentmeta)
+0000.451 () Processing table (InnoDB): wp_comments - will restore as: 9g_comments
+0000.491 () Atomic restore: dropping original table (wp_comments)
+0000.496 () Atomic restore: renaming new table (9g_comments) to final table name (wp_comments)
+0000.502 () Processing table (InnoDB): wp_links - will restore as: 9g_links
+0000.537 () Atomic restore: dropping original table (wp_links)
+0000.543 () Atomic restore: renaming new table (9g_links) to final table name (wp_links)
+0000.550 () Processing table (InnoDB): wp_postmeta - will restore as: 9g_postmeta
+0000.588 () Atomic restore: dropping original table (wp_postmeta)
+0000.596 () Atomic restore: renaming new table (9g_postmeta) to final table name (wp_postmeta)
+0000.603 () Processing table (InnoDB): wp_posts - will restore as: 9g_posts
+0000.641 () Atomic restore: dropping original table (wp_posts)
+0000.647 () Atomic restore: renaming new table (9g_posts) to final table name (wp_posts)
+0000.652 () Processing table (InnoDB): wp_term_relationships - will restore as: 9g_term_relationships
+0000.679 () Atomic restore: dropping original table (wp_term_relationships)
+0000.684 () Atomic restore: renaming new table (9g_term_relationships) to final table name (wp_term_relationships)
+0000.691 () Processing table (InnoDB): wp_term_taxonomy - will restore as: 9g_term_taxonomy
+0000.720 () Atomic restore: dropping original table (wp_term_taxonomy)
+0000.726 () Atomic restore: renaming new table (9g_term_taxonomy) to final table name (wp_term_taxonomy)
+0000.731 () Processing table (InnoDB): wp_termmeta - will restore as: 9g_termmeta
+0000.757 () Atomic restore: dropping original table (wp_termmeta)
+0000.762 () Atomic restore: renaming new table (9g_termmeta) to final table name (wp_termmeta)
+0000.768 () Processing table (InnoDB): wp_terms - will restore as: 9g_terms
+0000.804 () Unlocking database and leaving maintenance mode
+0000.804 () Vô hiệu hóa chế độ bảo trì&#8230;
+0000.804 () Atomic restore: dropping original table (wp_terms)
+0000.810 () Atomic restore: renaming new table (9g_terms) to final table name (wp_terms)
+0000.816 () Finished: lines processed: 42 in 0.71 seconds
+0000.817 () Cleaning up rubbish...
+0000.818 () Begin search and replace (updraftplus_restored_db)
+0000.818 () [Database-replace-site-url] Database: search and replace site URL
+0000.818 () This option was not selected.
+0000.826 () Entity: plugins
+0000.826 () restore_backup(backup_file=backup_2023-12-22-0237_VuongHongBao_6805ed469bda-plugins.zip, type=plugins, info=a:3:{s:4:"path";s:44:"C:\xampp\htdocs\wordpress/wp-content/plugins";s:11:"description";s:7:"Plugins";s:20:"singular_description";s:6:"Plugin";}, last_one=)
+0000.827 () Unpacking backup... (backup_2023-12-22-0237_VuongHongBao_6805ed469bda-plugins.zip, 7.2 MB)
+0000.829 () Unzipping backup_2023-12-22-0237_VuongHongBao_6805ed469bda-plugins.zip to C:/xampp/htdocs/wordpress/wp-content/upgrade/39977582/ using UpdraftPlus_PclZip, starting index 0
+0003.777 () Unzip progress: 1002 out of 1468 files (21.6 MB, plugins/updraftplus/vendor/guzzle/guzzle/src/Guzzle/Service/Resource/Model.php)
+0008.219 () Unzip progress: 1468 out of 1468 files (24.7 MB, plugins/updraftplus/vendor/team-updraft/common-libs/src/updraft-tasks/class-updraft-tasks-activation.php)
+0008.221 () Moving old data: filesystem method / updraft_dir is potentially possible
+0008.222 () Moving old data: can potentially use wp_filesystem method / -old
+0008.223 () Moving old data out of the way...
+0008.564 () Top-level entities being moved: akismet, hello.php, index.php, updraftplus
+0008.574 () Moving unpacked backup into place...
+0008.917 () Top-level entities being moved: akismet, hello.php, index.php, updraftplus
+0008.929 () Cleaning up rubbish...
+0008.941 () Entity: themes
+0008.942 () restore_backup(backup_file=backup_2023-12-22-0237_VuongHongBao_6805ed469bda-themes.zip, type=themes, info=a:3:{s:4:"path";s:43:"C:\xampp\htdocs\wordpress/wp-content/themes";s:11:"description";s:6:"Themes";s:20:"singular_description";s:5:"Theme";}, last_one=)
+0008.943 () Unpacking backup... (backup_2023-12-22-0237_VuongHongBao_6805ed469bda-themes.zip, 10.8 MB)
+0008.944 () Unzipping backup_2023-12-22-0237_VuongHongBao_6805ed469bda-themes.zip to C:/xampp/htdocs/wordpress/wp-content/upgrade/00bf6f85/ using UpdraftPlus_PclZip, starting index 0
+0010.619 () Unzip progress: 330 out of 330 files (12.1 MB, themes/twentytwentytwo/templates/single.html)
+0010.621 () Moving old data: filesystem method / updraft_dir is potentially possible
+0010.622 () Moving old data: can potentially use wp_filesystem method / -old
+0010.622 () Moving old data out of the way...
+0010.693 () Top-level entities being moved: index.php, twentytwentyfour, twentytwentythree, twentytwentytwo
+0010.714 () Moving unpacked backup into place...
+0010.785 () Top-level entities being moved: index.php, twentytwentyfour, twentytwentythree, twentytwentytwo
+0010.795 () Cleaning up rubbish...
+0010.807 () Entity: uploads
+0010.807 () restore_backup(backup_file=backup_2023-12-22-0237_VuongHongBao_6805ed469bda-uploads.zip, type=uploads, info=a:2:{s:4:"path";s:44:"C:\xampp\htdocs\wordpress/wp-content/uploads";s:11:"description";s:7:"Uploads";}, last_one=)
+0010.808 () Unpacking backup... (backup_2023-12-22-0237_VuongHongBao_6805ed469bda-uploads.zip, 3.7 MB)
+0010.810 () Unzipping backup_2023-12-22-0237_VuongHongBao_6805ed469bda-uploads.zip to C:/xampp/htdocs/wordpress/wp-content/upgrade/148c86e7/ using UpdraftPlus_PclZip, starting index 0
+0010.842 () Unzip progress: 8 out of 8 files (3.8 MB, uploads/2023/12/image.png)
+0010.844 () Moving old data: filesystem method / updraft_dir is potentially possible
+0010.845 () Moving old data: can potentially use wp_filesystem method / -old
+0010.845 () Moving old data out of the way...
+0010.850 () Moving unpacked backup into place...
+0010.855 () Cleaning up rubbish...
+0010.861 () Entity: others
+0010.861 () restore_backup(backup_file=backup_2023-12-22-0237_VuongHongBao_6805ed469bda-others.zip, type=others, info=a:2:{s:4:"path";s:36:"C:\xampp\htdocs\wordpress/wp-content";s:11:"description";s:6:"Others";}, last_one=1)
+0010.862 () Unpacking backup... (backup_2023-12-22-0237_VuongHongBao_6805ed469bda-others.zip, 0.7 MB)
+0010.864 () Unzipping backup_2023-12-22-0237_VuongHongBao_6805ed469bda-others.zip to C:/xampp/htdocs/wordpress/wp-content/upgrade/aa790eec/ using UpdraftPlus_PclZip, starting index 0
+0011.319 () Unzip progress: 70 out of 70 files (2.6 MB, languages/plugins/hello-dolly-vi.po)
+0011.328 () Cleaning up rubbish...
+0011.356 () Restore successful!
+0011.357 () Restore successful

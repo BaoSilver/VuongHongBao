@@ -1,0 +1,91 @@
+0000.000 (0) Opened log file at time: Fri, 22 Dec 2023 02:21:25 +0000 on http://localhost:8080/wordpress
+0000.002 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.23.13 WP: 6.4.2 PHP: 8.2.12 (apache2handler, Windows NT LAPTOP-81OPGQDH 10.0 build 19045 (Windows 10) AMD64) MySQL: 10.4.32-MariaDB (max packet size=1048576) WPLANG: vi Server: Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.2.12 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 40.9M | 44M) multisite: N openssl: OpenSSL 3.0.11 19 Sep 2023 mcrypt: N LANG:  ZipArchive::addFile: N
+0000.004 (0) Free space on disk containing Updraft's temporary directory: 26403.1 MB
+0000.008 (0) Tasks: Backup files: 1 (schedule: unset) Backup DB: 1 (schedule: unset)
+0000.011 (0) Semaphore (fd, wp_options) being initialised
+0000.020 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.023 (0) Set semaphore last lock (fd) time to 2023-12-22 02:21:25
+0000.024 (0) Semaphore lock (fd) complete
+0000.029 (0) Backup run: resumption=0, nonce=0a8df2383137, file_nonce=0a8df2383137 begun at=1703211685 (0s ago), job type=backup
+0000.032 (0) Scheduling a resumption (1) after 300 seconds (1703211985) in case this run gets aborted
+0000.044 (0) Checking if we have a zip executable available
+0000.047 (0) Zip engine: ZipArchive (a.k.a. php-zip) is not available or is disabled (will use PclZip (much slower) if needed)
+0000.050 (0) Creation of backups of directories: beginning
+0000.057 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0000.478 (0) Total entities for the zip file: 215 directories, 1253 files (0 skipped as non-modified), 24.7 MB
+0000.481 (0) Only one archive required (UpdraftPlus_PclZip) - will attempt to do in single operation (data: 25283 KB, split: 409600 KB)
+0000.523 (0) Zip: backup_2023-12-22-0221_VuongHongBao_0a8df2383137-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0000.558 (0) Zip: backup_2023-12-22-0221_VuongHongBao_0a8df2383137-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0000.592 (0) Zip: backup_2023-12-22-0221_VuongHongBao_0a8df2383137-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0000.628 (0) Zip: backup_2023-12-22-0221_VuongHongBao_0a8df2383137-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0000.662 (0) Zip: backup_2023-12-22-0221_VuongHongBao_0a8df2383137-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0000.700 (0) Zip: backup_2023-12-22-0221_VuongHongBao_0a8df2383137-plugins.zip.tmp: 600 files added (on-disk size: 0 KB)
+0000.738 (0) Zip: backup_2023-12-22-0221_VuongHongBao_0a8df2383137-plugins.zip.tmp: 700 files added (on-disk size: 0 KB)
+0000.776 (0) Zip: backup_2023-12-22-0221_VuongHongBao_0a8df2383137-plugins.zip.tmp: 800 files added (on-disk size: 0 KB)
+0000.815 (0) Zip: backup_2023-12-22-0221_VuongHongBao_0a8df2383137-plugins.zip.tmp: 900 files added (on-disk size: 0 KB)
+0000.853 (0) Zip: backup_2023-12-22-0221_VuongHongBao_0a8df2383137-plugins.zip.tmp: 1000 files added (on-disk size: 0 KB)
+0000.890 (0) Zip: backup_2023-12-22-0221_VuongHongBao_0a8df2383137-plugins.zip.tmp: 1100 files added (on-disk size: 0 KB)
+0000.929 (0) Zip: backup_2023-12-22-0221_VuongHongBao_0a8df2383137-plugins.zip.tmp: 1200 files added (on-disk size: 0 KB)
+0012.381 (0) Creating zip file manifest (backup_2023-12-22-0221_VuongHongBao_0a8df2383137-plugins.zip.list-temp.tmp)
+0012.389 (0) Successfully created zip file manifest (size: 108540)
+0012.473 (0) Created plugins zip (0) - 7354.4 KB in 12.4 s (593.3 KB/s) (sha1: fcc132da62545cf7f97b564283756c3cfa276624, sha256: a21eb8a38a5f8468431a278a36ddb88d409095f5c5ae695ecbd95b3d4b878608)
+0012.482 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0012.484 (0) No remote despatch: user chose no remote backup service
+0012.485 (0) Recording as successfully uploaded: backup_2023-12-22-0221_VuongHongBao_0a8df2383137-plugins.zip
+0012.488 (0) Deleting zip manifest (backup_2023-12-22-0221_VuongHongBao_0a8df2383137-plugins.zip.list.tmp)
+0012.492 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0012.494 (0) Number of backup sets in history: 0; groups (db): 1
+0012.496 (0) Number of backup sets in history: 0; groups (files): 1
+0012.499 (0) Retain: saving new backup history (sets now: 0) and finishing retain operation
+0012.512 (0) Beginning creation of dump of themes (split every: 400 MB)
+0012.609 (0) Total entities for the zip file: 39 directories, 291 files (0 skipped as non-modified), 12.1 MB
+0012.610 (0) Only one archive required (UpdraftPlus_PclZip) - will attempt to do in single operation (data: 12348.5 KB, split: 409600 KB)
+0012.641 (0) Zip: backup_2023-12-22-0221_VuongHongBao_0a8df2383137-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0012.680 (0) Zip: backup_2023-12-22-0221_VuongHongBao_0a8df2383137-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0016.975 (0) Creating zip file manifest (backup_2023-12-22-0221_VuongHongBao_0a8df2383137-themes.zip.list-temp.tmp)
+0016.979 (0) Successfully created zip file manifest (size: 20630)
+0017.109 (0) Created themes zip (0) - 11045.7 KB in 4.6 s (2406.1 KB/s) (sha1: 29e4e5485aec6713232da209066997077ef8c072, sha256: 5aa5f68dc7b09f466262cc81631ca2fb22981a7dd2e71a043c0d2876fb429825)
+0017.118 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0017.120 (0) No remote despatch: user chose no remote backup service
+0017.122 (0) Recording as successfully uploaded: backup_2023-12-22-0221_VuongHongBao_0a8df2383137-themes.zip
+0017.127 (0) Deleting zip manifest (backup_2023-12-22-0221_VuongHongBao_0a8df2383137-themes.zip.list.tmp)
+0017.131 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0017.134 (0) Number of backup sets in history: 0; groups (db): 1
+0017.137 (0) Number of backup sets in history: 0; groups (files): 1
+0017.139 (0) Retain: saving new backup history (sets now: 0) and finishing retain operation
+0017.152 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0017.154 (0) Looking for candidates to backup in: C:\xampp\htdocs\wordpress/wp-content/uploads
+0017.156 (0) finding files: 2023: adding to list (1)
+0017.159 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0017.171 (0) Total entities for the zip file: 2 directories, 6 files (0 skipped as non-modified), 3.8 MB
+0017.173 (0) Only one archive required (UpdraftPlus_PclZip) - will attempt to do in single operation (data: 3926.3 KB, split: 409600 KB)
+0017.424 (0) Creating zip file manifest (backup_2023-12-22-0221_VuongHongBao_0a8df2383137-uploads.zip.list-temp.tmp)
+0017.427 (0) Successfully created zip file manifest (size: 358)
+0017.481 (0) Created uploads zip (0) - 3827.2 KB in 0.3 s (12106.8 KB/s) (sha1: c85d560f14c77b87806dc2f43549c88e3df8dd45, sha256: 2fa2214529fc9b0b01d2cccd608e544f185b3d45d828c579e390451ed989a1b0)
+0017.488 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0017.489 (0) No remote despatch: user chose no remote backup service
+0017.490 (0) Recording as successfully uploaded: backup_2023-12-22-0221_VuongHongBao_0a8df2383137-uploads.zip
+0017.493 (0) Deleting zip manifest (backup_2023-12-22-0221_VuongHongBao_0a8df2383137-uploads.zip.list.tmp)
+0017.497 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0017.499 (0) Number of backup sets in history: 0; groups (db): 1
+0017.501 (0) Number of backup sets in history: 0; groups (files): 1
+0017.503 (0) Retain: saving new backup history (sets now: 0) and finishing retain operation
+0017.509 (0) No backup of mu-plugins: excluded by user's options
+0017.512 (0) Beginning backup of other directories found in the content directory (index: 0)
+0017.513 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0017.515 (0) Looking for candidates to backup in: C:\xampp\htdocs\wordpress/wp-content
+0017.517 (0) finding files: index.php: adding to list (1)
+0017.519 (0) finding files: languages: adding to list (2)
+0017.520 (0) finding files: plugins: skipping: this is the plugins directory
+0017.522 (0) finding files: themes: skipping: this is the themes directory
+0017.523 (0) finding files: updraft: skipping: this is the updraft directory
+0017.525 (0) finding files: upgrade: skipping: excluded by options
+0017.526 (0) finding files: uploads: skipping: this is the uploads directory
+0017.553 (0) Total entities for the zip file: 2 directories, 68 files (0 skipped as non-modified), 2.6 MB
+0017.554 (0) Only one archive required (UpdraftPlus_PclZip) - will attempt to do in single operation (data: 2613.6 KB, split: 409600 KB)
+0018.095 (0) User request for abort: backup job will be immediately halted
+0018.098 (0) Decremented the semaphore (fd) by 1
+0018.101 (0) Semaphore (fd) unlocked
+0018.103 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0018.111 (0) No email will/can be sent - the user has not configured an email address.
+0018.112 (0) Các sao lưu đã bị hủy bỏ bởi người sử dụng
